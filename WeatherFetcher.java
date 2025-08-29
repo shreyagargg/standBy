@@ -6,7 +6,7 @@ import java.net.URL;
 public class WeatherFetcher {
 
     public static void main(String[] args) {
-        String apiKey = "a876030befea88a63c4221ae9534a181"; // Replace with your actual API key
+        String apiKey = ""; // Replace with your actual API key
         String city = "Delhi"; // Example city
 
         try {
@@ -35,4 +35,5 @@ public class WeatherFetcher {
             e.printStackTrace();
         }
     }
+
 }
